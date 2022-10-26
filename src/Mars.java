@@ -30,9 +30,13 @@ public class Mars {
             System.out.println("ERROR! flight plan already set. Landing on The Plain...");
         }
 
-        landing = LandingCheck(100);
+       
         //Call a function called LandingCheck() that has a parameter of 100, returns boolean, and set it equal to Landing
-        
+        landing = LandingCheck(100);
+
+        // Play the guessing game from the GuessingGame constructor
+        new GuessingGame();
+
     }
 
     //Create a public static void function called LandingCheck with an int parameter called Loops
@@ -41,15 +45,15 @@ public class Mars {
             //Create an if statement with 1 if, 2 else ifs, and 1 else
             //The if statement should check to see if i divisible by 3 equals 0, and that i divisible by 5 equals 0
             if ((i % 3) ==0 && ((i % 5) ==0)){
-                System.out.print("Keep Center");
+                System.out.print("Keep Center...");
             }
             //The first else if statement should check if i divisible by 5 equals 0
             else if ((i % 5) ==0){
-                System.out.println("Right");
+                System.out.println("Turn Right!");
             }
             //The first else if statement should check if i divisible by 3 equals 0
             else if ((i % 3) == 0) {
-                System.out.println("Left");
+                System.out.println("Turn Left!");
             }
             // Does not meet any conditions above
             else {
@@ -61,7 +65,7 @@ public class Mars {
         }
 
         //Print "Landed"
-        System.out.println("Landed");
+        System.out.println("TOUCHDOWN!!! Landed on Mars!");
 
         //The ship has landed on Mars. Return the value false;
         return false;

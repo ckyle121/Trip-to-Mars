@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class MarsExpedition {
 
     public MarsExpedition(){
+         // scanner receieves input from user 
         Scanner input = new Scanner(System.in);
 
         System.out.println("Expedition prep program starting...\n" + 

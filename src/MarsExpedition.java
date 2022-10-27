@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
-public class MarsExpedition{
-    public static void main(String[] args) {
-      new MarsExpedition();   
-    }
+public class MarsExpedition {
 
     public MarsExpedition(){
         Scanner input = new Scanner(System.in);

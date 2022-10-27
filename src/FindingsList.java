@@ -3,10 +3,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class FindingsList{
-    public static void main(String[] args) throws InterruptedException{
-        new FindingsList();
-    }
+public class FindingsList {
 
     public FindingsList() throws InterruptedException {
 

@@ -36,6 +36,12 @@ public class Mars {
 
         // Play the guessing game from the GuessingGame constructor
         new GuessingGame();
+        
+        // Explore Mars
+        new MarsExpedition();
+        
+        // View the Findings List
+        new FindingsList();
 
     }
 
